@@ -1,0 +1,582 @@
+/*头部导航栏样式*/
+#dhlan{
+	min-width: 1300px;
+	height: 30px;
+	/*background: red;*/
+	background: #f2f2f2;
+	border-bottom: 1px solid #e5e5e5;
+}
+#dhlan2{
+	width: 1230px;
+	height: 30px;
+	/*background: yellow;*/
+}
+#dhlan2 #left{	
+	width: 302px;
+	height: 30px;
+	margin-left: 100px;
+}
+#dhlan2 .dhl{
+	height: 30px;
+	text-align: center;
+	color: #999;
+	line-height: 27px;
+}
+#dhlan2 .dhl a{
+	color:#999;
+}
+
+#dhlan2 .dh{
+	width: 84px;	
+}
+#dhlan2 .dh2{
+	width: 66px;	
+}
+#dhlan2 .dh3{
+	width: 68px;	
+}
+#dhlan2 .dhl a:hover{
+	color: #999;
+	text-decoration: none;	
+}
+/*右边的导航栏*/
+#dhlan2 #right{	
+	width: 528.97px;
+	height: 27px;
+	margin-right: 45px;
+}
+#dhlan2 #right a{
+	color: #999;
+}
+#right .dhl2{
+	color: #999;
+	line-height: 27px;
+	padding-left: 5px;
+	text-align: center;
+}
+#right .xlcd{
+	width: 80px;
+	height: 27px;	
+	/*background: red;*/
+	text-align: center;
+}
+/*#right .xlcd a{
+	color: gray;
+}*/
+#right .dhl2 .iconfont{
+	font-size:10px;
+}
+/*鼠标点变白色*/
+#right .xlcd:hover{
+	background: white;
+}
+#right .xlcd:hover a{
+	color: gray;
+}
+#right .xlcd .xlcd2{
+	width: 100px;
+	height: 80px;
+	background: white;
+	border:1px solid #eee;
+	display: none;
+}
+#right .xlcd .xlcd2 .xld{
+	margin-left: -14px;
+	color: grey;
+}
+#right .xlcd .xlcd2 .xld a{
+	color: grey;
+}
+#right .xlcd:hover .xlcd2{
+	position: relative;
+	z-index: 3;
+	display: block;
+}
+#right .d:hover{
+	text-decoration: none;
+	color: paleturquoise;
+}
+/*一条竖线*/
+#right .dhll{
+	display: inline-block;
+    width: 0;
+    height: 14px;
+    line-height: 14px;
+    vertical-align: top;
+    position: relative;
+    top: 8px;
+    left: 0;
+    font-size: 0;
+    border-left: 1px solid #ccc;
+    margin: 0 2px 0 5px;
+}
+#right .dl{
+	margin-left: 5px;
+}
+
+#right .xlcd .xlcd3{
+	width: 175px;
+	height: 175px;
+	background: white;
+	border:1px solid #eee;
+	margin: 5px 0 0px;
+	background:url(../img/index/index_daohanglan.png) ;
+	margin-left:-50px ;
+	display: none;
+}
+#right .xlcd:hover .xlcd3{
+	position: relative;
+	z-index: 3;
+	display: block;
+}
+/******搜索栏的样式********/
+#tlidao{
+	height: 92px;
+}
+#tlidao2{
+	width: 1230px;
+	height: 92px;
+}
+#lgtu{
+	width: 190px;
+    margin-top: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    left: 90px;
+    background: brown;
+    margin-left: 8%;
+    background: url(../img/goodstu/goodstu2.png)no-repeat;
+}
+
+#suo2{
+	width:700px;
+	height: 90px;
+	padding-top: 10px;
+	margin-right: 60px;
+	overflow: hidden;
+}
+.bt012{
+	width: 400px;
+	height: 30px;
+	border: 2px solid red;
+	margin-left: 160px;
+	margin-top: 15px;
+	outline: none;	
+}
+.bt22{
+	width:80px;
+	height: 34px;
+	background: red;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 500;
+	color: white;
+	border: 0 none;	
+	float: left;
+	margin-left: 560px;
+	margin-top: -34px;
+}
+/******购物车的内容商品的样式*********/
+#scar{
+	height: 800px;
+}
+#scar2{
+	width: 990px;
+	height: 800px;
+	background: white;
+}
+.carbox {
+    font-size: 12px;
+    position: relative;
+}
+.car {
+    overflow: hidden;
+    height: 33px;
+    width: 600px;
+}
+.carbtn {
+    font-weight: 700;
+    font-size: 16px;
+    height: 16px;
+    line-height: 1.1;
+    font-family: 'Hiragino Sans GB','Lantinghei SC','Microsoft Yahei',SimSun;
+    text-align: center;
+    padding: 0 0 15px 0;
+    cursor: pointer;
+    margin-left: -1px;
+}
+.carbtn  .number {
+    color: #f40;
+    font-size: 14px;
+    margin: 0 30px 0 5px;
+    font-weight: 400;
+}
+.carbtn  .pipe {
+    width: 1px;
+    height: 12px;
+    display: inline-block;
+    background: #e8e8e8;
+}
+.carbtn  a {
+    padding-left: 15px;
+}
+.carbtn  a {
+    padding-left: 25px;
+    text-decoration: none;
+}
+a {
+    color: #3c3c3c;
+}
+/*****结算右边的******/
+.car2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 25px;
+    line-height: 25px;
+}
+.price {
+    color: #404040;
+    font-family: Arial,Verdana;
+    font-weight: 700;
+    margin-right: 5px;
+    color: #f40;
+}
+.car2 .price em {
+    font-family: Verdana,Arial;
+    padding-left: 2px;
+    font-weight: 700;
+}
+.totalm {
+    font-size: 12px;
+    font-weight: 400;
+}
+.car2 .submit-btn-disabled{
+    background: gray;
+    color: #fff; 
+    /*cursor: not-allowed;*/
+}
+.subbtn{
+	display: inline-block;
+	width: 55px;
+	height: 30px;
+	border-radius: 2px;
+	text-align: center;
+	background: gray;
+	text-decoration: none;
+}
+.car2 a:hover{
+	text-decoration: none;
+}
+/****水平线的样式******/
+.line1 {
+    clear: both;
+    background: #e6e6e6;
+    height: 2px;
+    position: relative;
+}
+.line1 .floater {
+    background: #f40;
+    height: 2px;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+#carbox2{
+	width: 990px;
+	height: 50px;
+	line-height: 50px;
+}
+#ckbox{
+	margin-left: 25px;
+}
+#ckbox2{
+	margin-left: 100px;
+}
+#ckbox3{
+	margin-right: 50px;
+}
+#ckbox3 .xxbtns{
+	margin-left: 72px;
+}
+#carbox3{
+	width: 990px;
+	height: 38px;
+	line-height: 38px;
+}
+table{
+	display: block;
+	width: 988px;
+	height: auto;
+	border: 1px dashed gainsboro;
+	background: whitesmoke;
+}
+table tr{
+	display: block;
+	width: 988px;
+	height: 100px;
+	line-height: 100px;
+	border-bottom: 1px dashed gainsboro;
+}
+.cbox{
+	width: 80px;
+	height: 80px;	
+}
+.cbox img{
+	border: 1px solid gainsboro;
+}
+.cbox2{
+	width: 190px;
+	height:85px;
+	/*background: yellow;*/
+	position: relative;
+	margin-top: 8px;
+}
+.carzi{
+	line-height: 30px;
+	clear: both;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.carzi2,.carzi21{
+	line-height: 30px;
+	clear: both;
+	display: block;
+	position: absolute;
+	top: 20px;
+	left: 0;
+}
+.cbox21{
+	border: 1px dashed gainsboro;
+}
+.cbox21:hover{
+	border: 1px dashed red;
+}
+.cbox2 img{
+	position: absolute;	
+	top: 55px;
+	left: 0;
+}
+.cbox3{
+	width: 400px;
+	height: 50px;
+	/*border: 1px solid red;*/
+	margin-left: 10px;
+	margin-top: 20px;
+	/*position: relative;*/
+}
+.cbox3 .clbns{
+	float: left;
+	width: 98px;
+	height: 48px;
+	text-align: center;
+	line-height: 40px;
+	/*border: 1px solid red;*/
+	position: relative;
+}
+.cbox3 .pricezi1{
+	position: absolute;
+	top: -10px;
+	left:25px;
+}
+.cbox3 .pricezi2{
+	position: absolute;
+	top: 10px;
+	left:25px;
+	font-weight: 600;
+	color: red;
+}
+
+.cbox3 input{
+	width: 30px;
+	height: 20px;
+	text-align: center;
+}
+/******结算的内容样式******/
+#zjs{
+	width: 990px;
+	height: 50px;
+	background: gainsboro;
+	/*bottom: 0;*/
+	margin-top: 20px;
+	/*position: fixed;*/
+	/*z-index: 50;*/
+}
+.jsl{
+	width: 400px;
+	height: 50px;
+	/*background: blueviolet;*/
+	line-height: 50px;
+	margin-left: 5px;
+}
+.jsl .jslbns{
+	margin-right: 30px;
+}
+#zjs a{
+	color: black;
+}
+#zjs a:hover{
+	color: red;
+}
+
+.jsr{
+	width: 250px;
+	height: 50px;
+	/*background: red;*/
+	line-height: 50px;
+	right: 0;
+}
+.jsrbns:nth-child(1){
+	width: 169px;
+	height: 50px;
+	/*border: 1px solid red;*/
+	text-align:center ;
+}
+.totalm{
+	font-size: 16px;
+	font-weight: 600;
+	
+}
+.jsrbns:nth-child(2){
+	width: 80px;
+	height: 50px;
+	background: gray;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	color: red;
+}
+.jsrbns:nth-child(2) a:hover{
+	color: red;
+	text-decoration: none;
+}
+
+/*****底部的内容*****/
+#gfzi{
+	display: block;
+	margin-top: 20px;	
+	font-size: 20px;
+	font-weight: 600;
+	position: relative;
+}
+#gftu{
+	height: 500px;
+}
+#gftu2{
+	width: 990px;
+	height:500px;
+	/*background: papayawhip;*/
+}
+.gfbox{
+	width: 231px;
+	height: 331px;
+	border: 2px solid #ccc;	
+	margin-right: 12px;
+}
+.gfbox:hover{
+	border: 2px solid red;
+}
+
+.gfPic{
+	display: block;
+	
+	margin: 5px 5px;	
+}
+.xpric2{
+	color:red
+}
+.gfbox .sL2{
+	font-size: 10px;
+}
+.gfbox a{
+	color: gray;
+}
+.gfbox a:hover{
+	color: red;
+}
+.gfbox .gName{
+	display: block;
+	margin-top: 5px;
+}
+.gfbox .gDpname{
+	display: block;
+	margin-top: 5px;
+}
+.gfbox .gDpname a{
+	text-decoration: underline;
+}
+/******最底部的内容*******/
+#gfzd{
+	height: 300px;
+	margin-top: 30px;
+}
+#gfzd2{	
+	width: 1190px;
+	height: 300px;
+	/*background: blueviolet;*/
+}
+#gfzd2 a{
+	color: red;	
+}
+#gfzi2{
+	margin-left: 100px;
+}
+/*********底部的样式***********/
+#foottu1{
+	height: 56px;
+	background: whitesmoke;
+	border-bottom: 1px solid paleturquoise;
+}
+#foottu{
+	width: 1230px;
+	height: 56px;
+	text-align: center;
+	background: whitesmoke;
+	
+}
+#foot1{
+	height: 585px;;
+	background: whitesmoke;
+	background: url(../img/index/index_backgroungimg1.png);
+	background-size: 100% 585px;
+}
+#foot2{
+	width: 1190px;
+	height: 585px;
+	background: white;
+}
+#ftub{
+	width: 1190px;
+	height: 150px;
+	background: red;
+	text-align: center;
+	border-bottom: 1px solid gainsboro;
+}
+#zfb2{
+	border-bottom: 1px solid #6d6d6d;
+    padding: 30px 0 34px;
+    height: auto;
+    overflow: hidden;
+}
+#zfb2 .df{
+	margin-left: 60px;
+    width: 234px;
+}
+#zfb2 .dtf{
+	margin-bottom: 4px;
+    font-weight: 500;
+    color: gray;
+    font-size: 18px;
+}
+#zfb2 .dda{
+	color: grey;
+	font-size: 14px;
+}
+.ddf a{
+	text-decoration: none;
+}

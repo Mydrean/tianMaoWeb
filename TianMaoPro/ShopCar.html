@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的购物车</title>
+		<link rel="logo icon" href="logo.ico" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/ShopCar.css" />
+		<link rel="stylesheet" href="css/demo.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/ShopCar.js" ></script>
+		<script type="text/javascript" src="js/shopCar2.js" ></script>
+	</head>
+	<body>
+		<!--头部导航栏-->
+		<header id="dhlan" class="t">
+			<div id="dhlan2" class="c">
+				<ul id="left" class="l">
+					<li class="dhl dh  l">
+						<span class="iconfont">&#xe623;</span>
+						<a href="index.html">天猫首页</a>
+					</li>
+					<li class="dhl dh  l">喵，欢迎来天猫</li>
+					<li class="dhl dh2 l"><a href="Login.html">我的信息</a></li>
+					<li class="dhl dh3 l"><a href="Registration.html">手机逛淘宝</a></li>
+				</ul>
+				<ul id="right" class="r">
+					<li class="dhl2 l">
+						<div class="xlcd">
+							<a href="#">我的淘宝
+								<b><span class="iconfont">&#xe631;</span></b>
+							</a>
+							<div class="xlcd2">
+								<ul>
+									<li class="xld"><a href="#">已买到的宝贝</a></li>
+									<li class="xld"><a href="#">已卖出的宝贝</a></li>
+								</ul>							
+							</div>
+						</div>
+					</li>
+					<li class="dhl2 l">
+						<a href="ShopCar.html" class="d"><span class="iconfont">&#xe64f;</span>
+						购物车6件</a>
+					</li>
+					<li class="dhl2 l">
+						<div class="xlcd">
+							<a href="#">收藏夹
+								<b><span class="iconfont">&#xe631;</span></b>
+							</a>
+							<div class="xlcd2">
+								<ul>
+									<li class="xld"><a href="#">收藏的宝贝</a></li>
+									<li class="xld"><a href="#">收藏的店铺</a></li>
+								</ul>							
+							</div>
+						</div>
+					</li>
+					<li class="dhll l"></li>
+					<li class="dhl2 l">
+						<div class="xlcd">
+							<a href="#" class="d"><span class="iconfont">&#xe607;</span>手机版</a>
+							<div class="xlcd3"></div>																	
+						</div>
+					</li>
+					<li class="dhl2 l">
+						<a href="#" class="d dl">淘宝网</a>
+					</li>
+					
+					<li class="dhl2 l">
+						<a href="#" class="d dl"><span class="iconfont">&#xe63b;</span>网站导航</a>
+					</li>					
+				</ul>
+			</div>
+		</header>
+		<!--搜索栏-->
+		<div id="tlidao" class="t">
+			<div id="tlidao2" class="c">
+				<div id="lgtu" class="l"></div>
+				<div id="suo2" class="r">
+					<input type="text" placeholder=" 搜索宝贝" class="bt012"/>
+					<button class="bt22">搜索</button>					
+				</div>									
+			</div>
+		</div>
+		<!--购物车的内容商品-->
+		<article id="scar" class="t">
+			<div id="scar2" class="c">
+				<div class="carbox">
+					<ul class="car">
+						<li class="carbtn l">
+							<a href="#">
+								<em>全部商品</em>
+								<span class="number">29</span>
+								<span class="pipe"></span>
+							</a>
+						</li>
+						<li class="carbtn l">
+							<a href="#">
+								<em>降价商品</em>
+								<span class="number">0</span>
+								<span class="pipe"></span>
+							</a>
+						</li>
+						<li class="carbtn l">
+							<a href="#">
+								<em>库存紧张</em>
+								<span class="number">0</span>
+							</a>
+						</li>
+					</ul>
+					<div class="car2 ">
+						<span class="pay">已选商品（不含运费）￥</span>
+						<strong class="price">
+							<em id="">
+								<span class="totalm">&nbsp;0</span>								
+							</em>
+						</strong>
+						<a id="jsuan" class="subbtn submit-btn-disabled">结&nbsp;算</a>
+					</div>
+					<div class="line1">
+						<div class="floater" style="width: 132px; left: -1px;"></div>
+					</div>
+				</div>
+				<div id="carbox2">
+					<div id="ckbox" class="l">
+					<input type="checkbox" />
+					<span>&nbsp;&nbsp;全选</span>
+					</div>
+					<div id="ckbox2" class="l">				
+					<span>商品信息</span>
+					</div>
+					<ul id="ckbox3" class="r">
+						<li class="xxbtns l">单价</li>
+						<li class="xxbtns l">数量</li>
+						<li class="xxbtns l">金额</li>
+						<li class="xxbtns l">操作</li>
+					</ul>
+				</div>
+				<div id="carbox3">
+					<div id="ckbox" class="l">
+					<input type="checkbox" />
+					<span>&nbsp;&nbsp;店铺:&nbsp;&nbsp;<a href="#">回力梅西专卖店</a>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<img src="img/shopcar/shopcartu1.png" />
+					</div>					
+				</div>
+				<table>
+					<tr>
+					<td>
+						<div id="ckbox" class="l">
+							<input type="checkbox" class="checkbox"/>							
+						</div>
+						<div id="ckbox" class="cbox l">
+							<a href="#"><img src="img/shopcar/cartu1.jpg" /></a>
+						</div>
+						<div id="ckbox" class="cbox2 l">
+							<span class="carzi"><a href="#">【年货价】回力鞋女帆布鞋女冬</a></span>
+							<span class="carzi2"><a href="#">2018新款高帮帆布鞋女加绒学生鞋 </a></span>
+							<span class="carzi3"><a href="#"><img src="img/shopcar/cartu2.png" /></a></span>		
+						</div>
+						<div id="ckbox" class="cbox2 cbox21 l">
+							<span class="carzi">颜色分类：黑色-高帮</span>
+							<span class="carzi2">（收藏+加购 联系客服 立减10元）</span>
+							<span class="carzi3">尺码：35</span>		
+						</div>
+						<ul class="cbox3 l">
+							<li class="clbns l">
+								<p class="pricezi1"><del>￥108.00</del></p>
+								<p class="pricezi2">￥<em class="aa">96</em></p>
+							</li>
+							<li class="clbns l">
+								<button class="subtract">-</button>				
+								<input type="text" class="text" value="1"/>
+								<button class="plus">+</button>
+							</li>
+							<li class="clbns l">
+								¥<input type="text" class="money" value="96"/>
+							</li>
+							<li class="clbns l"><button class="del">删除</button></li>
+						</ul>	
+					</td>
+					</tr>
+					<tr>
+					<td>
+						<div id="ckbox" class="l">
+							<input type="checkbox" class="checkbox" />							
+						</div>
+						<div id="ckbox" class="cbox l">
+							<a href="#"><img src="img/shopcar/cartu3.jpg" /></a>
+						</div>
+						<div id="ckbox" class="cbox2 l">
+							<span class="carzi"><a href="#">半高领毛衣女包芯纱基础款长袖套</a></span>
+							<span class="carzi2"><a href="#">头百搭针织衫2018秋网红款打底衫 </a></span>
+							<span class="carzi3"><a href="#"><img src="img/shopcar/cartu2.png" /></a></span>		
+						</div>
+						<div id="ckbox" class="cbox2 cbox21 l">
+							<span class="carzi">颜色分类：白色</span>
+							<span class="carzi2">（收藏+加购 联系客服 立减10元）</span>
+							<span class="carzi3">尺码：S</span>		
+						</div>
+						<ul class="cbox3 l">
+							<li class="clbns l">
+								<p class="pricezi1"><del>￥299.00</del></p>
+								<p class="pricezi2">￥<em class="aa">39</em></p>
+							</li>
+							<li class="clbns l">
+								<button class="subtract">-</button>				
+								<input type="text" class="text" value="1"/>
+								<button class="plus">+</button>
+							</li>
+							<li class="clbns l">
+								¥<input type="text" class="money" value="39"/>
+							</li>
+							<li class="clbns l"><button class="del">删除</button></li>
+						</ul>	
+					</td>
+					</tr>
+					<tr>
+					<td>
+						<div id="ckbox" class="l">
+							<input type="checkbox" class="checkbox" />							
+						</div>
+						<div id="ckbox" class="cbox l">
+							<a href="#"><img src="img/shopcar/cartu4.jpg" /></a>
+						</div>
+						<div id="ckbox" class="cbox2 l">
+							<span class="carzi"><a href="#">意大利KIKO口红唇膏9系4系小黑管  </a></span>
+							<span class="carzi2"><a href="#">滋润唇膏豆沙色玫瑰色407# </a></span>
+							<span class="carzi3"><a href="#"><img src="img/shopcar/cartu2.png" /></a></span>		
+						</div>
+						<div id="ckbox" class="cbox2 cbox21 l">
+							<span class="carzi">颜色分类：407</span>
+							<span class="carzi2">（收藏+加购 联系客服 立减10元）</span>
+							
+						</div>
+						<ul class="cbox3 l">
+							<li class="clbns l">
+								<p class="pricezi1"><del>￥115.00</del></p>
+								<p class="pricezi2">￥<em class="aa">69</em></p>
+							</li>
+							<li class="clbns l">
+								<button class="subtract">-</button>				
+								<input type="text" class="text" value="1"/>
+								<button class="plus">+</button>
+							</li>
+							<li class="clbns l">
+								¥<input type="text" class="money" value="69"/>
+							</li>
+							<li class="clbns l"><button class="del">删除</button></li>
+						</ul>	
+					</td>
+					</tr>
+					<tr>
+					<td>
+						<div id="ckbox" class="l">
+							<input type="checkbox" class="checkbox" />							
+						</div>
+						<div id="ckbox" class="cbox l">
+							<a href="#"><img src="img/shopcar/cartu5.jpg" /></a>
+						</div>
+						<div id="ckbox" class="cbox2 l">
+							<span class="carzi"><a href="#">【年货价】特步女鞋板鞋2018新款 </a></span>
+							<span class="carzi2"><a href="#">正品冬季白色休闲鞋子运动鞋女小</a></span>
+							<span class="carzi3"><a href="#"><img src="img/shopcar/cartu2.png" /></a></span>		
+						</div>
+						<div id="ckbox" class="cbox2 cbox21 l">
+							<span class="carzi">鞋码：36</span>
+							<span class="carzi2">颜色分类：白黑</span>
+							
+						</div>
+						<ul class="cbox3 l">
+							<li class="clbns l">
+								<p class="pricezi1"><del>￥219</del></p>
+								<p class="pricezi2">￥<em class="aa">119</em></p>
+							</li>
+							<li class="clbns l">
+								<button class="subtract">-</button>				
+								<input type="text" class="text" value="1"/>
+								<button class="plus">+</button>
+							</li>
+							<li class="clbns l">
+								¥<input type="text" class="money" value="119"/>
+							</li>
+							<li class="clbns l"><button class="del">删除</button></li>
+						</ul>	
+					</td>
+					</tr>
+					<tr>
+					<td>
+						<div id="ckbox" class="l">
+							<input type="checkbox" class="checkbox" />							
+						</div>
+						<div id="ckbox" class="cbox l">
+							<a href="#"><img src="img/shopcar/cartu6.jpg" /></a>
+						</div>
+						<div id="ckbox" class="cbox2 l">
+							<span class="carzi"><a href="#">【年货价】特步女鞋板鞋2018新款  </a></span>
+							<span class="carzi2"><a href="#">正品冬季白色休闲鞋子运动鞋女小</a></span>
+							<span class="carzi3"><a href="#"><img src="img/shopcar/cartu2.png" /></a></span>		
+						</div>
+						<div id="ckbox" class="cbox2 cbox21 l">
+							<span class="carzi">鞋码：36</span>
+							<span class="carzi2">颜色分类：白红</span>
+							
+						</div>
+						<ul class="cbox3 l">
+							<li class="clbns l">
+								<p class="pricezi1"><del>￥210</del></p>
+								<p class="pricezi2">￥<em class="aa">100</em></p>
+							</li>
+							<li class="clbns l">
+								<button class="subtract">-</button>				
+								<input type="text" class="text" value="1"/>
+								<button class="plus">+</button>
+							</li>
+							<li class="clbns l">
+								¥<input type="text" class="money" value="100"/>
+							</li>
+							<li class="clbns l"><button class="del">删除</button></li>
+						</ul>	
+					</td>
+					</tr>
+				</table>
+				<!--结算的内容-->
+				<div id="zjs">
+					<ul class="jsl l">
+						<li class="jslbns l">
+							<input type="checkbox" />
+							<span>&nbsp;&nbsp;全选</span>
+						</li>
+						<li class="jslbns l"><a href="#">删除</a></li>
+						<li class="jslbns l"><a href="#">清除失效宝贝</a></li>
+						<li class="jslbns l"><a href="#">移入收藏夹</a></li>
+						<li class="jslbns l"><a href="#">分享</a></li>
+					</ul>
+					<ul class="jsr r">
+						<li class="jsrbns l">
+							<span class="pay">合计￥</span>
+							<strong class="price">
+								<em id="">
+									<span class="totalm">&nbsp;0</span>									
+								</em>
+							</strong>
+						</li>
+						<li class="jsrbns l"><a href="#">结算</a></li>									
+					</ul>
+				</div>
+				
+			</div>
+		</article>
+		<!--底部的图片-->
+		<article id="gftu" class="t">
+			<div id="gftu2" class="c">
+				<span id="gfzi"><em>掌柜热卖</em></span>	
+				<div class="gfbox l">
+					<img src="img/goodstu/goodsfoot1.jpg" class="gfPic" />
+					<span class="price"><em>￥170.00</em></span>
+					<span><del class="xpric2">¥290.00</del></span>
+					<span class="sL">月成交 </span>
+					<span class="sL2">12015笔</span>
+					<a href="#"><p class="gName">[新年限量款]兰蔻菁纯柔润唇膏 290豆沙</p></a>
+					<span class="gDpname"><a href="#">lancome兰蔻官方旗舰店</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;免运费</span>
+				</div>
+				<div class="gfbox l">
+					<img src="img/goodstu/goodsfoot2.jpg" class="gfPic" />
+					<span class="price"><em>￥79.00</em></span>
+					<span><del class="xpric2">¥89.00</del></span>
+					<span class="sL">&nbsp;&nbsp;&nbsp;&nbsp;月成交 </span>
+					<span class="sL2">10589笔</span>
+					<a href="#"><p class="gName">[新年限量款]兰蔻菁纯柔润唇膏 290豆沙</p></a>
+					<span class="gDpname"><a href="#">lancome兰蔻官方旗舰店</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;免运费</span>
+				</div>
+				<div class="gfbox l">
+					<img src="img/goodstu/goodsfoot3.jpg" class="gfPic" />
+					<span class="price"><em>￥59.00</em></span>
+					<span><del class="xpric2">¥79.00</del></span>
+					<span class="sL">&nbsp;&nbsp;&nbsp;&nbsp;月成交 </span>
+					<span class="sL2">14562笔</span>
+					<a href="#"><p class="gName">[新年限量款]兰蔻菁纯柔润唇膏 290豆沙</p></a>
+					<span class="gDpname"><a href="#">lancome兰蔻官方旗舰店</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;免运费</span>
+				</div>
+				<div class="gfbox l">
+					<img src="img/goodstu/goodsfoot4.jpg" class="gfPic" />
+					<span class="price"><em>￥99.00</em></span>
+					<span><del class="xpric2">¥120.00</del></span>
+					<span class="sL">&nbsp;&nbsp;&nbsp;&nbsp;月成交 </span>
+					<span class="sL2">14563笔</span>
+					<a href="#"><p class="gName">[新年限量款]兰蔻菁纯柔润唇膏 290豆沙</p></a>
+					<span class="gDpname"><a href="#">lancome兰蔻官方旗舰店</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;免运费</span>
+				</div>
+				
+			</div>
+		</article>
+		<!--最底部的内容-->
+		<footer id="gfzd" class="t">
+			<div id="gfzd2" class="c">
+				<span id="gfzi2">
+					喵~在此反馈您的意见和建议吧，
+					<a href="#">立刻反馈</a>
+				</span>
+				<a href="#"><img src="img/goodstu/goodszuitu.png" /></a>
+			</div>
+		</footer>
+		<!--底部的广告牌板块-->
+		<div id="foottu1" class="t">
+			<div id="foottu" class="c">
+				<img src="img/foot/foottu1.png" />			
+			</div>
+		</div>	
+		<footer id="foot1" class="t">
+			<div id="foot2" class="c">
+				<div id="ftub">
+					<a href="#">
+					<img src="img/foot/foottu2.png" />
+					</a>
+				</div>
+				<div id="zfb2">
+				<!--底部第一排内容-->
+					<dl class="df df1 l">
+						<dt class="dtf">购物指南</dt>
+						<dd class="ddf">
+							<a href="#" class="dda">免费注册</a>
+						</dd>
+						<dd class="ddf">
+							<a href="#" class="dda">开通支付宝</a>
+						</dd>
+						<dd class="ddf">
+							<a href="#" class="dda">支付宝充值</a>
+						</dd>
+						
+					</dl>
+					<!--底部第二排内容-->
+					<dl class="df df2 l">
+						<dt class="dtf">天猫保障</dt>
+						<dd class="ddf">
+							<a href="#" class="dda">发票保障</a>
+						</dd>
+						<dd class="ddf">
+							<a href="#" class="dda">售后规则</a>
+						</dd>
+						<dd class="ddf">
+							<a href="#" class="dda">缺货赔付</a>
+						</dd>
+						
+					</dl>
+					<!--底部第二排内容-->
+					<dl class="df df3 l">
+						<dt class="dtf">支付方式</dt>
+						<dd class="ddf">
+							<a href="#" class="dda">快捷支付</a>
+						</dd>
+						<dd class="ddf">
+							<a href="#" class="dda">信用卡</a>
+						</dd>
+						<dd class="ddf">
+							<a href="#" class="dda">余额宝</a>
+						</dd>
+						<dd class="ddf">
+							<a href="#" class="dda">蚂蚁花呗</a>
+						</dd>
+						<dd class="ddf">
+							<a href="#" class="dda">货到付款</a>
+						</dd>						
+					</dl>
+					<dl class="df df4 l">
+						<dt class="dtf">手机天猫</dt>
+						<dd class="ddf">
+							<img src="img/foot/foottu3.png" />
+						</dd>
+					</dl>
+				</div>	
+				<div id="zuih">
+					<img src="img/foot/foottu4.png" />
+				</div>
+			</div>
+		</footer>
+		
+		
+		
+		
+		
+		
+		<script>
+			
+			
+		</script>
+		
+		
+	</body>
+</html>

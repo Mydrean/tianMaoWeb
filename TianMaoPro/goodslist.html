@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品列表</title>
+		<link rel="logo icon" href="logo.ico" />
+		<link rel="stylesheet" href="css/base.css"/>
+		<link rel="stylesheet" href="css/goodslist.css" />
+		<link rel="stylesheet" href="css/demo.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<script type="text/javascript" src="js/goodsshuzu.js" ></script>
+		<script type="text/javascript" src="js/goodslist.js" ></script>
+	</head>
+	<body>
+		<!--头部tu-->
+		<div id="gtop" class="t">
+			<div id="gtop2" class="c">
+				<a href="#"><img src="img/goodstu/goodstop1.png"  /></a>
+			</div>
+		</div>
+		<!--头部导航栏-->
+		<header id="dhlan" class="t">
+			<div id="dhlan2" class="c">
+				<ul id="left" class="l">
+					<li class="dhl dh  l">
+						<span class="iconfont">&#xe623;</span>
+						<a href="index.html">天猫首页</a>
+					</li>
+					<li class="dhl dh  l">喵，欢迎来天猫</li>
+					<li class="dhl dh2 l"><a href="Login.html">请登录</a></li>
+					<li class="dhl dh3 l"><a href="Registration.html">免费注册</a></li>
+				</ul>
+				<ul id="right" class="r">
+					<li class="dhl2 l">
+						<div class="xlcd">
+							<a href="#">我的淘宝
+								<b><span class="iconfont">&#xe631;</span></b>
+							</a>
+							<div class="xlcd2">
+								<ul>
+									<li class="xld"><a href="#">已买到的宝贝</a></li>
+									<li class="xld"><a href="#">已卖出的宝贝</a></li>
+								</ul>							
+							</div>
+						</div>
+					</li>
+					<li class="dhl2 l">
+						<a href="ShopCar.html" class="d"><span class="iconfont">&#xe64f;</span>
+						购物车0件</a>
+					</li>
+					<li class="dhl2 l">
+						<div class="xlcd">
+							<a href="#">收藏夹
+								<b><span class="iconfont">&#xe631;</span></b>
+							</a>
+							<div class="xlcd2">
+								<ul>
+									<li class="xld"><a href="#">收藏的宝贝</a></li>
+									<li class="xld"><a href="#">收藏的店铺</a></li>
+								</ul>							
+							</div>
+						</div>
+					</li>
+					<li class="dhll l"></li>
+					<li class="dhl2 l">
+						<div class="xlcd">
+							<a href="#" class="d"><span class="iconfont">&#xe607;</span>手机版</a>
+							<div class="xlcd3"></div>																	
+						</div>
+					</li>
+					<li class="dhl2 l">
+						<a href="#" class="d dl">淘宝网</a>
+					</li>
+					<li class="dhl2 l">
+						<a href="#" class="d dl">商家支持</a>
+					</li>
+					<li class="dhl2 l">
+						<a href="#" class="d dl"><span class="iconfont">&#xe63b;</span>网站导航</a>
+					</li>					
+				</ul>
+			</div>
+		</header>
+		<!--搜索栏-->
+		<div id="tlidao" class="t">
+			<div id="tlidao2" class="c">
+				<div id="lgtu" class="l"></div>
+				<div id="suo2" class="r">
+					<input type="text" placeholder=" 口红  " class="bt012"/>
+					<button class="bt22">搜索</button>
+					<div id="box02">
+						<ul >
+							<li class="bt3">保湿<s class="line"></s></li>
+							<li class="bt3">&nbsp;&nbsp;面膜<s class="line"></s></li>
+							<li class="bt3">&nbsp;&nbsp;洗面奶<s class="line"></s></li>
+							<li class="bt3">&nbsp;&nbsp;补水<s class="line"></s></li>
+							<li class="bt3">&nbsp;&nbsp;香水<s class="line"></s></li>
+							<li class="bt3">&nbsp;&nbsp;眼霜<s class="line"></s></li>
+							<li class="bt3">&nbsp;&nbsp;口红<s class="line"></s></li>
+							<li class="bt3">&nbsp;&nbsp;护肤套装<s class="line"></s></li>
+							<li class="bt3">&nbsp;&nbsp;BB霜</li>
+						</ul>
+				</div>
+				</div>					
+				<div id="gsrtu" class="l">
+					<img src="img/goodstu/goodstu3.png" />
+				</div>
+			</div>
+		</div>
+		<!--搜索框2-->
+		<div id="gsuo" class="t">
+			<div id="gsuo2" class="c">
+				<ul id="gsuobtn" class="l">
+					<li class="gsbtn l">
+						<a href="#">全部</a>
+						<span class="iconfont">&#xe633;</span> 
+					</li>						
+					<li class="gsbtn l">
+						<input type="text" placeholder=" 口红 " class="sbt0"/>
+						<b><span class="iconfont">&#xe7b7;</span></b>
+					</li>
+				</ul>
+				<span id="grig" class="l" >共  124689  件相关的商品</span>
+			</div>
+		</div>
+		<!--品牌的样式-->
+		<div id="gpp" class="t">
+			<div id="gpp1" class="c">
+				<div id="J_SuggestTipWrap">
+				</div>
+				<form id="gfb" class="navAttrsForm">
+					<div class="attrs" style="display: block;">
+						<div class="brandAttr">
+							<div class="attr">
+								<div class="attrKey" class="l">品牌</div>
+								<div class="attrValues">
+									<div class="av-search clearfix" style="display: none;">
+										<input type="text" value="" placeholder="搜索&nbsp;品牌名称" style="color: rgb(191, 191, 191);">
+									</div>
+									<ul class="av-expand av-scroll" style="visibility: visible;" class="l">
+										<li><a href="#">YSL/圣罗兰</a></li>
+										<li><a href="#">Dior/迪奥</a></li>
+										<li><a href="#">Givenchy/纪梵希</a></li>
+										<li><a href="#">MAC/魅可</a></li>
+										<li><a href="#">L'OREAL /欧莱雅</a></li>
+										<li><a href="#">CPB/肌肤之钥</a></li>
+										<li><a href="#">Dior/迪奥      </a></li>
+										<li><a href="#">May/美宝莲</a></li>			
+										<li><a href="#">CPB/肌肤之钥</a></li>
+										<li><a href="#">Givenchy/纪梵希</a></li>
+										<li><a href="#">L'OREAL /欧莱雅</a></li>										
+									</ul>
+									<div class="av-options">
+										<a class="avo-multiple">+多选</a>
+										<a href="#"><b class="bt">更多<span class="iconfont">&#xe631;</span></b></a>									
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</form>
+				<div id="gfb2">
+					<ul>
+						<li class="gbtn gbtn1 l">时尚彩妆</li>
+						<li class="gbtn gbtn2 l"><a href="#">唇膏/口号</a></li>
+						<li class="gbtn gbtn3 l"><a href="#">唇彩/唇蜜</a></li>
+					</ul>
+					  
+				</div>	
+				<div id="gfb2">
+					<ul>
+						<li class="gbtn gbtn1 l">其他分类</li>
+						<li class="gbtn gbtn4 l"><a href="#">收纳/整理用具</a></li>
+						<li class="gbtn gbtn4 l"><a href="#">情趣用品</a></li>
+						<li class="gbtn gbtn4 l"><a href="#">计生/成人用品 </a></li>
+						<li class="gbtn gbtn4 l"><a href="#">3C数码配件</a> </li>
+					</ul>
+				</div>
+				
+				<div id="gfb2">			     
+					<ul>
+						<li class="gbtn gbtn1 l">产地</li>
+						<li class="gbtn gbtn4 l"><a href="#">法国</a></li>
+						<li class="gbtn gbtn4 l"><a href="#">美国</a></li>
+						<li class="gbtn gbtn4 l"><a href="#">中国</a></li>
+						<li class="gbtn gbtn4 l"><a href="#">加拿大</a></li>
+						<li class="gbtn gbtn4 l"><a href="#">比利时 </a></li>
+					</ul>
+				</div>
+				<div id="gfb2">	
+					<ul>
+						<li class="gbtn gbtn1 l">功能</li>
+						<li class="gbtn gbtn4 l"><a href="#">滋润</a></li>
+						<li class="gbtn gbtn4 l"><a href="#">易上色</a></li>
+						<li class="gbtn gbtn4 l"><a href="#">持久</a></li>
+						<li class="gbtn gbtn4 l"><a href="#">不易脱色</a></li>
+						<li class="gbtn gbtn4 l"><a href="#">保湿</a></li>
+					</ul>
+				</div>
+				<div id="gfb2">
+					<ul>
+						<li class="gbtn gbtn1 l">规格类型</li>
+						<li class="gbtn gbtn4 l"><a href="#">正常规格</a></li>
+						<li class="gbtn gbtn4 l"><a href="#">小样</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--综合人气-->
+		<header id="ghead" class="t">
+			<div id="ghead2" class="c">
+				<ul id="ghl" class="l">
+					<a href="#"><li class="ghlbtn l">综合<span class="iconfont">&#xe65a;</span></li>
+					<li class="ghlbtn l">人气<span class="iconfont">&#xe65a;</span></li>
+					<li class="ghlbtn l">新品<span class="iconfont">&#xe65a;</span></li>
+					<li class="ghlbtn l">销量<span class="iconfont">&#xe65a;</span></li>
+					<li class="ghlbtn l">价格<span class="iconfont">&#xe645;</span></li></a>
+				</ul>
+				<ul id="ghm" class="l">
+					<li class="ghlbtn l">收货地：</li>
+					<li class="ghlbtn l" id="dd">杭州</li>
+					<div id="gxbox">
+						<dl>
+							<dt>选择收货城市</dt>
+							<hr />
+							<dd class="l"><a href="#">北京</a></dd>
+							<dd class="l"><a href="#">天津 </a></dd>
+							<dd class="l"><a href="#">上海</a></dd>
+							<dd class="l"><a href="#">重庆</a></dd>				
+							<dd class="l"><a href="#">河北</a></dd>
+							<dd class="l"><a href="#">内蒙古</a></dd>
+							<dd class="l"><a href="#">辽宁</a></dd>
+							<dd class="l"><a href="#">吉林</a></dd>
+							<dd class="l"><a href="#">黑龙江</a></dd>							
+						</dl>
+					</div>
+				</ul>
+				<ul id="ghmr" class="r">
+					<li class="ghlbtn l">					
+						<input type="text" id="ginp" placeholder="请输入最低价格" />						
+					</li>
+					<li class="l dd2">-</li>				
+					<li class="ghlbtn l" id="dd">					
+						<input type="text" id="ginp" placeholder="请输入最高价格" />				
+					</li>
+				</ul>
+				<ul id="ghmr2" class="r">
+					<li class="ghlbtn l">					
+						<input type="checkbox" /><span>包邮</span>						
+					</li>
+					<li class="ghlbtn l">
+						<input type="checkbox" /><span>折扣</span>
+					</li>				
+					<li class="ghlbtn l" id="dd">					
+						<input type="checkbox" /><span>搭配减价</span>			
+					</li>
+					<li class="ghlbtn l" id="dd">					
+						<b>更多<span class="iconfont">&#xe65a;</span></b>			
+					</li>
+				</ul>
+				<ul id="ghmr3" class="r">
+					<li class="ghlbtn l">					
+						<span>1/80</span>						
+					</li>
+					<li class="ghlbtn l">					
+						<a href="#"><span><</span></a>						
+					</li>
+					<li class="ghlbtn l">					
+						<a href="#"><span>></span></a>						
+					</li>
+				</ul>
+			</div>
+		</header>
+		<!--动态创建商品列表-->		
+		<article id="gart" class="t">
+			<div id="gart2" class="c">
+				<div class="gbox" >
+					<img src="img/goodstu/goodstu4.jpg" class="gPic" />
+					<p class="price"><em>￥170.00</em></p>
+					<a href="#"><p class="gName">MAC/魅可 子弹头唇膏</p></a>
+					<a href="#"><p class="gDpname">MAC魅可官方旗舰店</p></a>
+					<p class="xian"><hr/></p>
+					<span class="sL">该款月成交 </span>
+					<span class="sL2">21万笔</span>
+					<span class="iconfont">&#xe60e;</span>
+					<img src="img/goodstu/goodslogotu.png" class="gPic2"/>
+				</div>
+			</div>
+		</article>
+		<!--底部的内容-->
+		<article id="gfart" class="t">
+			<div id="gfart2" class="c">
+				<ul id="gfbtn">
+					<li class="gfbt l"><<上一页</li>
+					<li class="gfbt l">1</li>
+					<li class="gfbt l"><a href="#">2</a></li>
+					<li class="gfbt l"><a href="#">3</a></li>
+					<li class="gfbt l">...</li>
+					<li class="gfbt l"><a href="#">下一页>></a></li>
+					<span>共80页，到第</span>
+					<span><input type="type" placeholder="1" /></span>
+					<span>页</span>
+					<span><button>确定</button></span>
+				</ul>
+				<img src="img/goodstu/goodslogo.png" />				
+			</div>
+			<!--底部的导航条的内容-->	
+			<div id="gfart3">
+				<ul id="gf1">
+					<li class="gfns l">您是不是想找</li>
+					<li class="gfns l">|</li>
+					<li class="gfns l"><a href="#">唇釉</a></li>
+					<li class="gfns l">|</li>
+					<li class="gfns l"><a href="#">唇膏</a></li>
+					<li class="gfns l">|</li>
+					<li class="gfns l"><a href="#">香奈儿口红</a></li>
+					<li class="gfns l">|</li>
+					<li class="gfns l"><a href="#">唇彩</a></li>
+					<li class="gfns l">|</li>
+					<li class="gfns l"><a href="#">ysl</a></li>
+					<li class="gfns l">|</li>
+					<li class="gfns l"><a href="#">迪奥口红</a></li>
+					<li class="gfns l">|</li>
+					<li class="gfns l"><a href="#">口红小样</a></li>
+					<li class="gfns l">|</li>
+					<li class="gfns l"><a href="#">美宝莲口红</a></li>					
+					<li class="gfns l"></li>
+				</ul>
+			</div>
+			<!--底部的图片-->
+			<span id="gfzi"><em>掌柜热卖</em></span>			
+		</article>
+		<!--底部的图片-->
+		<article id="gftu" class="t">
+			<div id="gftu2" class="c">
+				<div class="gfbox l">
+					<img src="img/goodstu/goodsfoot1.jpg" class="gfPic" />
+					<span class="price"><em>￥170.00</em></span>
+					<span><del class="xpric2">¥290.00</del></span>
+					<span class="sL">月成交 </span>
+					<span class="sL2">12015笔</span>
+					<a href="#"><p class="gName">[新年限量款]兰蔻菁纯柔润唇膏 290豆沙</p></a>
+					<span class="gDpname"><a href="#">lancome兰蔻官方旗舰店</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;免运费</span>
+				</div>
+				<div class="gfbox l">
+					<img src="img/goodstu/goodsfoot2.jpg" class="gfPic" />
+					<span class="price"><em>￥79.00</em></span>
+					<span><del class="xpric2">¥89.00</del></span>
+					<span class="sL">&nbsp;&nbsp;&nbsp;&nbsp;月成交 </span>
+					<span class="sL2">10589笔</span>
+					<a href="#"><p class="gName">[新年限量款]兰蔻菁纯柔润唇膏 290豆沙</p></a>
+					<span class="gDpname"><a href="#">lancome兰蔻官方旗舰店</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;免运费</span>
+				</div>
+				<div class="gfbox l">
+					<img src="img/goodstu/goodsfoot3.jpg" class="gfPic" />
+					<span class="price"><em>￥59.00</em></span>
+					<span><del class="xpric2">¥79.00</del></span>
+					<span class="sL">&nbsp;&nbsp;&nbsp;&nbsp;月成交 </span>
+					<span class="sL2">14562笔</span>
+					<a href="#"><p class="gName">[新年限量款]兰蔻菁纯柔润唇膏 290豆沙</p></a>
+					<span class="gDpname"><a href="#">lancome兰蔻官方旗舰店</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;免运费</span>
+				</div>
+				<div class="gfbox l">
+					<img src="img/goodstu/goodsfoot4.jpg" class="gfPic" />
+					<span class="price"><em>￥99.00</em></span>
+					<span><del class="xpric2">¥120.00</del></span>
+					<span class="sL">&nbsp;&nbsp;&nbsp;&nbsp;月成交 </span>
+					<span class="sL2">14563笔</span>
+					<a href="#"><p class="gName">[新年限量款]兰蔻菁纯柔润唇膏 290豆沙</p></a>
+					<span class="gDpname"><a href="#">lancome兰蔻官方旗舰店</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;免运费</span>
+				</div>
+				<div class="gfbox l">
+					<img src="img/goodstu/goodsfoot5.jpg" class="gfPic" />
+					<span class="price"><em>￥25.90</em></span>
+					<span><del class="xpric2">¥78.00</del></span>
+					<span class="sL">&nbsp;&nbsp;&nbsp;&nbsp;月成交 </span>
+					<span class="sL2">14562笔</span>
+					<a href="#"><p class="gName">[新年限量款]兰蔻菁纯柔润唇膏 290豆沙</p></a>
+					<span class="gDpname"><a href="#">lancome兰蔻官方旗舰店</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;免运费</span>
+				</div>
+			</div>
+		</article>		
+		<!--底部的搜索框-->
+		<footer id="gds" class="t">
+			<div id="gds2" class="c">
+				<input type="text" placeholder=" 口红 " class="bt012 bt013"/>
+				<button class="bt22">搜索</button>
+			</div>
+		</footer>
+		<!--最底部的内容-->
+		<footer id="gfzd" class="t">
+			<div id="gfzd2" class="c">
+				<span id="gfzi2">
+					喵~在此反馈您的意见和建议吧，
+					<a href="#">立刻反馈</a>
+				</span>
+				<a href="#"><img src="img/goodstu/goodszuitu.png" /></a>
+			</div>
+		</footer>
+		<!--底部的广告牌板块-->
+		<div id="foottu1" class="t">
+			<div id="foottu" class="c">
+				<img src="img/foot/foottu1.png" />			
+			</div>
+		</div>	
+		<footer id="foot1" class="t">
+			<div id="foot2" class="c">
+				<div id="ftub">
+					<a href="#">
+					<img src="img/foot/foottu2.png" />
+					</a>
+				</div>
+				<div id="zfb2">
+				<!--底部第一排内容-->
+					<dl class="df df1 l">
+						<dt class="dtf">购物指南</dt>
+						<dd class="ddf">
+							<a href="#" class="dda">免费注册</a>
+						</dd>
+						<dd class="ddf">
+							<a href="#" class="dda">开通支付宝</a>
+						</dd>
+						<dd class="ddf">
+							<a href="#" class="dda">支付宝充值</a>
+						</dd>
+						
+					</dl>
+					<!--底部第二排内容-->
+					<dl class="df df2 l">
+						<dt class="dtf">天猫保障</dt>
+						<dd class="ddf">
+							<a href="#" class="dda">发票保障</a>
+						</dd>
+						<dd class="ddf">
+							<a href="#" class="dda">售后规则</a>
+						</dd>
+						<dd class="ddf">
+							<a href="#" class="dda">缺货赔付</a>
+						</dd>
+						
+					</dl>
+					<!--底部第二排内容-->
+					<dl class="df df3 l">
+						<dt class="dtf">支付方式</dt>
+						<dd class="ddf">
+							<a href="#" class="dda">快捷支付</a>
+						</dd>
+						<dd class="ddf">
+							<a href="#" class="dda">信用卡</a>
+						</dd>
+						<dd class="ddf">
+							<a href="#" class="dda">余额宝</a>
+						</dd>
+						<dd class="ddf">
+							<a href="#" class="dda">蚂蚁花呗</a>
+						</dd>
+						<dd class="ddf">
+							<a href="#" class="dda">货到付款</a>
+						</dd>						
+					</dl>
+					<dl class="df df4 l">
+						<dt class="dtf">手机天猫</dt>
+						<dd class="ddf">
+							<img src="img/foot/foottu3.png" />
+						</dd>
+					</dl>
+				</div>	
+				<div id="zuih">
+					<img src="img/foot/foottu4.png" />
+				</div>
+			</div>
+		</footer>
+		
+		
+		<!--右边固定的导航条-->	
+		<div id="rightBox">
+			<ul class="rb">
+				<li class="rbs1">
+					<a href="#"><img src="img/index/index_rightimg1.png" /></a>
+				</li>
+				<li class="rbs2" id="zhuhuic">
+					<a href="#"><span class="iconfont">&#xe62d;</span></a>
+					<div id="son01" class="sonBox">
+						主会场
+					<img src="img/index/红三角形.png" />
+					</div>
+				</li>
+				<li class="rbs2 rbs21" id="huiyuan">
+					<a href="#"><span class="iconfont">&#xe739;</span></a>
+					<div id="son02" class="sonBox sonBox2">
+						会员权益
+					<img src="img/index/三角形.png" />
+					</div>
+				</li>
+				
+				<li class="rbs rbs21" id="shopCar">
+					<a href="ShopCar.html"><span class="iconfont">&#xe66d;</span><br />					
+					<span>购<br />物<br />车</span>
+					</a>					
+				</li>
+				
+				<li class="rbs3 rbs21" id="money">
+					<a href="#"><span class="iconfont">&#xe645;</span></a>
+					<div id="son03" class="sonBox sonBox3">
+						我的资产
+					<img src="img/index/三角形.png" />
+					</div>
+				</li>
+				<li class="rbs3 rbs21" id="shuocang">
+					<a href="#"><span class="iconfont">&#xe643;</span></a>
+					<div id="son04" class="sonBox sonBox3">
+						我的收藏
+					<img src="img/index/三角形.png" />
+					</div>
+				</li>
+				<li class="rbs3 rbs21" id="kanguo">
+					<a href="#"><span class="iconfont">&#xe62a;</span></a>
+					<div id="son05" class="sonBox sonBox3">
+						我看过的
+					<img src="img/index/三角形.png" />
+					</div>
+				</li>
+				<li class="rbs3 rbs21" id="chonzhi">
+					<a href="#"><span class="iconfont">&#xe62e;</span></a>
+					<div id="son06" class="sonBox sonBox3">
+						我要充值
+					<img src="img/index/三角形.png" />
+					</div>
+				</li>
+				<li class="rbs3 rbs21" id="fankui">
+					<a href="#"><span class="iconfont">&#xe60c;</span></a>
+					<div id="son07" class="sonBox sonBox3">
+						用户反馈
+					<img src="img/index/三角形.png" />
+					</div>
+				</li>
+				<li class="rbs3 rbs21" id="saoma">
+					<a href="#"><span class="iconfont">&#xeaf1;</span></a>
+					<div id="son08" class="sonBox4">						
+						<img src="img/index/index_saoma1.png" id="tu"/>
+						<img src="img/index/index_saomatu.jpg" id="tu2"/>
+						<img src="img/index/index_saoma2.png" id="tu3" />						
+					</div>
+				</li>
+				<li class="rbs3 rbs21" id="fanhui">
+					<a href="#">
+						<span class="iconfont">&#xe646;</span>
+						<span>TOP</span>
+					</a>
+					<div id="son09" class="sonBox sonBox3">
+						返回顶部
+					<img src="img/index/三角形.png" />
+					</div>
+				</li>							
+			</ul>
+		</div>
+		
+	<script>
+
+	
+	</script>
+	
+	</body>
+</html>

@@ -1,0 +1,794 @@
+/*头部导航栏样式*/
+#dhlan{
+	min-width: 1300px;
+	height: 27px;
+	/*background: red;*/
+	background: #f2f2f2;
+	border-bottom: 1px solid #e5e5e5;
+}
+#dhlan2{
+	width: 1230px;
+	height: 27px;
+	/*background: yellow;*/
+}
+#dhlan2 #left{	
+	width: 302px;
+	height: 27px;
+	/*background: blue;*/
+}
+#dhlan2 .dhl{
+	height: 27px;
+	text-align: center;
+	color: #999;
+	line-height: 27px;
+}
+#dhlan2 .dhl a{
+	color:#999;
+}
+
+#dhlan2 .dh{
+	width: 84px;	
+}
+#dhlan2 .dh2{
+	width: 66px;	
+}
+#dhlan2 .dh3{
+	width: 68px;	
+}
+#dhlan2 .dhl a:hover{
+	color: #999;
+	text-decoration: none;	
+}
+/*右边的导航栏*/
+#dhlan2 #right{	
+	width: 528.97px;
+	height: 27px;
+	/*background: blue;*/
+}
+#dhlan2 #right a{
+	color: #999;
+}
+#right .dhl2{
+	color: #999;
+	line-height: 27px;
+	padding-left: 5px;
+	text-align: center;
+}
+#right .xlcd{
+	width: 80px;
+	height: 27px;	
+	/*background: red;*/
+	text-align: center;
+}
+/*#right .xlcd a{
+	color: gray;
+}*/
+#right .dhl2 .iconfont{
+	font-size:10px;
+}
+/*鼠标点变白色*/
+#right .xlcd:hover{
+	background: white;
+}
+#right .xlcd:hover a{
+	color: gray;
+}
+#right .xlcd .xlcd2{
+	width: 100px;
+	height: 80px;
+	background: white;
+	border:1px solid #eee;
+	display: none;
+}
+#right .xlcd .xlcd2 .xld{
+	margin-left: -14px;
+	color: grey;
+}
+#right .xlcd .xlcd2 .xld a{
+	color: grey;
+}
+#right .xlcd:hover .xlcd2{
+	position: relative;
+	z-index: 3;
+	display: block;
+}
+#right .d:hover{
+	text-decoration: none;
+	color: paleturquoise;
+}
+/*一条竖线*/
+#right .dhll{
+	display: inline-block;
+    width: 0;
+    height: 14px;
+    line-height: 14px;
+    vertical-align: top;
+    position: relative;
+    top: 8px;
+    left: 0;
+    font-size: 0;
+    border-left: 1px solid #ccc;
+    margin: 0 2px 0 5px;
+}
+#right .dl{
+	margin-left: 5px;
+}
+
+#right .xlcd .xlcd3{
+	width: 175px;
+	height: 175px;
+	background: white;
+	border:1px solid #eee;
+	margin: 5px 0 0px;
+	background:url(../img/index/index_daohanglan.png) ;
+	margin-left:-50px ;
+	display: none;
+}
+#right .xlcd:hover .xlcd3{
+	position: relative;
+	z-index: 3;
+	display: block;
+}
+/*****头部下面的内容******/
+#top{
+	height: 100px;
+	border-bottom: 1px solid gainsboro;
+}
+#top2{
+	width: 1190px;
+	height: 100px;
+}
+#gdtop .gdp{
+	width: 118px;
+	height: 40px;	
+	margin-top: 30px;
+}
+#gdtop .gdp2{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#gdtop .gdp3{
+	margin-left: 20px;
+	margin-top: 19px;
+}
+/*****搜索框的样式******/
+.bt012{
+	float: left;
+	width: 375px;
+	height: 30px;
+	border: 2px solid blue;
+	margin-left: 630px;
+	margin-top: -46px;
+	outline: none;	
+}
+.bt22{
+	width:110px;
+	height: 34px;
+	background: blue;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 500;
+	color: white;
+	border: 0 none;	
+	float: left;
+	margin-left: 1008px;
+	margin-top: -46px;
+}
+.bt23{
+	width:80px;
+	height: 34px;
+	background: black;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 500;
+	color: white;
+	border: 0 none;	
+	float: left;
+	margin-left: 1120px;
+	margin-top: -46px;
+}
+.gdtbns2 a:hover{
+	color: white;
+	text-decoration: none;
+}
+/*******头部的图片的样式********/
+#toptu{
+	height: 145px;
+	/*background: #404040;*/	
+	background: url(../img/goodsdetails/goodsdetail6.jpg)no-repeat;
+}
+#toptu2{
+	width: 1190px;
+	height: 145px;
+	/*background: #404040;*/
+}
+#tptu{
+	margin: 0 auto;
+	width: 990px;
+	height:120px ;
+	background: yellow;
+}
+/******头部第二个导航条******/
+#tpdh{
+	margin: 0px auto;
+	width: 990px;
+	height:25px ;
+}
+#tpd .tpdbns{
+	font-size: 14px;
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	margin-left: -10px;	
+}
+#tpd .tpdbns a:hover{
+	color: white;
+	text-decoration: none;
+}
+#tpd .iconfont{
+	font-size: 10px;
+	margin-top: 3px;
+	color: white;
+}
+
+#tpd input{
+	height: 18px;
+	width: 180px;
+	text-align: center;
+}
+#tpd .tpdbns:nth-child(9){
+	width: 238px;
+	margin-left: 30px;
+}
+/*****放大镜的内容的样式********/
+#gdfdaj{
+	height: 604px;
+	/*width: 990px;*/
+	/*background: blue;*/
+	margin-top: 40px;
+}
+#gdfdaj2{
+	height: 604px;
+	width: 990px;
+	border: 1px solid gainsboro;
+	position: relative;
+}
+#fdbox,#bigpic{
+	width: 418px;
+	height: 418px;
+	/*background: red;*/
+}
+#fdbox{
+	position: relative;
+	border: 1px solid gainsboro;
+}
+#s{
+	width: 418px;
+	height: 418px;
+}
+#bigpic{
+	position: absolute;
+	left: 418px;
+	top: 0px;
+	z-index: 15;
+	overflow: hidden;
+	display: none;
+}
+#b{
+	width: 1398px;
+	height: 1398px;
+	position: absolute;
+	left: 0;
+	top: 0;				
+}
+#square{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: gray;
+	opacity: 0.7;
+	display: none;	
+}
+#fdbox:hover #square{
+	display: block;
+}
+#fdbox:hover #bigpic{
+	display: block;
+}
+#btntu{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#btntu .btn{
+	width: 60px;
+	height: 60px;
+	margin-left: 10px;
+	border: 2px solid white;
+}
+#btntu .btn:hover{
+	border: 2px solid black;
+}
+
+#bttu1{	
+	background: url(../img/goodsdetails/goodsdetailbtn1.jpg)no-repeat;
+	background-size: 100% 100%;
+}
+#bttu2{
+	background: url(../img/goodsdetails/goodsdetialbtn2.jpg)no-repeat;
+	background-size: 100% 100%;
+}
+#bttu3{
+	background: url(../img/goodsdetails/goodsdetialbtn3.jpg)no-repeat;
+	background-size: 100% 100%;
+}
+#bttu4{
+	background: url(../img/goodsdetails/goodsdetialbtn4.jpg)no-repeat;
+	background-size: 100% 100%;
+}
+#bttu5{
+	background: url(../img/goodsdetails/goodsdetialbtn5.jpg)no-repeat;
+	background-size: 100% 100%;
+}
+#gdfdaj2 .lianj{
+	width: 300px;
+	height: 50px;
+	/*background: red;*/
+	margin-top: 90px;
+	margin-left: 20px;
+	font-size: 12px;
+	color: gray;
+}
+/******放大镜右边的图的样式********/
+#gdring{
+	width: 540px;
+	height: 604px;
+	/*background: blueviolet;*/
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#gdring .fdzi{
+	font-size: 17px;
+	color: black;
+	font-weight: bold;
+}
+#gdring  #zibox{
+	width: 540px;
+	height: 50px;
+	margin-top: 14px;
+	background: red;
+	background: url(../img/goodsdetails/fangdazitu.png);
+	line-height: 50px;	
+}
+.fdzi2{
+	margin-left: 10px;
+	color: gray;
+}
+#zibox .fdzi3{
+	font-size: 20px;
+	font-weight: 600;
+	margin-left: 50px;
+	color: red;
+}
+#zibox2{
+	width: 540px;
+	height: 50px;
+	/*background: whitesmoke;*/
+	line-height: 50px;	
+}
+#zibox2 .fdzi4 a{
+	font-size: 10px;
+	color: black;
+	margin-left: 30px;
+}
+#zibox2 .fdzi4 a:hover{
+	text-decoration: none;
+}
+#zibox3{
+	width: 540px;
+	height: 42px;
+	/*background: whitesmoke;*/
+	line-height: 42px;
+	text-align: center;	
+	border-top: 1px dashed gainsboro;
+	border-bottom: 1px dashed gainsboro;
+}
+#zibox3 a{
+	color: gray;
+}
+#zibox3 a:hover{
+	text-decoration: none;
+}
+#zibox3 .fdzi5{
+	color: red;
+}
+/****颜色分类******/
+#zibox4{
+	width: 540px;
+	height: 70px;
+	/*background: peru;*/
+	margin-top: 40px;
+}
+.sebtn{
+	width: 38px;
+	height: 38px;
+	margin-left: 10px;	
+	text-align: center;	
+}
+#setu{
+	width: 50px;
+	height: 38px;
+	text-align: center;
+	line-height:38px ;
+	color: gray;	
+}
+#setu1{
+	border: 2px solid orange;
+}
+#setu1 img{
+	width: 38px;
+	height: 38px;
+}
+#setu1:hover{
+	border: 2px solid red;
+}
+/******数量的添加的样式******/
+#zibox5{
+	width: 540px;
+	height: 60px;
+	/*background: yellowgreen;*/
+	margin-top: 20px;
+	line-height: 50px;
+}
+.slbox{
+	width: 400px;
+	height: 40px;
+	text-align: center;
+	/*padding-top: 20px;*/
+	margin-left: 10px;
+}
+.slbox .l:nth-child(2){
+	margin-left: 50px;
+}
+.slbox input{
+	width: 50px;
+	height: 25px;
+	text-align: center;
+}
+.slbox .l{
+	vertical-align: middle;
+}
+#zibox6{
+	width: 180px;
+	height: 40px;
+	border: 1px solid red;
+	background: gainsboro;	
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+#zibox6 a{
+	color: red;
+}
+#zibox6 a:hover{
+	color: red;
+	text-decoration: none;
+}
+#zibox7{
+	width: 180px;
+	height: 40px;
+	border: 1px solid red;
+	background: red;
+	color: red;
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+#zibox7 a:hover{
+	color: white;
+	text-decoration: none;
+}
+#zibox8{
+	width: 540px;
+	height: 100px;
+}
+/*********物流的信息的样式*********/
+#wuliu{
+	height: auto;	
+}
+#wuliu2{
+	width: 990px;
+	height: 80px;
+	border: 1px solid gainsboro;
+}
+#xq{
+	width: 990px;
+	height: auto;
+	background: whitesmoke;
+	margin-top: 10px;
+}
+#xql{
+	width: 188px;
+	height: 900px;
+	border: 1px solid gainsboro;
+}
+#xqr{
+	width: 788px;
+	height: auto;
+	right: 0;
+	border: 1px solid gainsboro;
+}
+#xqr img{
+	width: 788px;
+}
+#lsuo{
+	width: 188px;
+	height: 108px;
+	/*background: blueviolet;*/
+	text-align: center;
+	position: relative;
+}
+#lsuo input{
+	width: 112px;
+	height: 26px;
+}
+#lsuo span{
+	display: block;
+	font-size: 14px;
+	position: absolute;	
+	top: 20px;
+	left: 15px;
+}
+#lsuo p{
+	font-size: 14px;
+	position: absolute;	
+	top: 50px;
+	left: 10px;
+}
+.key{
+	display: block;
+    width: 50px;
+    text-align: left;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 4px;
+	margin-top: 40px;
+}
+#price1{
+	width: 30px;
+    height: 26px;
+    text-indent: 4px;
+    margin-left: 44px;
+    margin-top: 60px;
+}
+/*****右边固定的内容的样式******/
+#rightBox{
+	width: 35px;
+	height: 100%;
+	background: red;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 20;
+	
+}
+.rb{
+	margin-top: 38px;
+	overflow: hidden;
+}
+.rbs2{
+	height: 45px;
+	background: red;
+		
+}
+.rbs2 .iconfont{
+	font-size: 35px;
+	text-align: center;
+	line-height: 45px;
+}
+.rbs2 a{
+	color: white;
+	text-decoration: none;
+}
+.rbs21{
+	background: #000;
+	border-bottom:1px solid white;
+}
+.rbs21 a{
+	text-decoration: none;
+}
+.rbs21:hover{
+	background: red;
+	color: white;
+}
+.rbs21:hover a{
+	color: white;
+}
+.rbs{
+	width: 35px;
+	padding: 15px 0;
+	color: white;
+	text-align: center;
+}
+.rbs .iconfont{
+	font-size: 18px;
+}
+.rbs3{
+	height: 36px;
+	background: #000000;
+	/*padding-top: 8px;*/
+		
+}
+.rbs3 .iconfont{
+	font-size: 24px;
+	text-align: center;
+	line-height: 36px;
+	margin-left: 5px;
+}
+
+/*****右边那个隐藏窗口********/
+.sonBox{
+	width: 100px;
+	height: 45px;
+	background: red;
+	color: white;
+	line-height: 45px;
+	text-align: center;
+	position: absolute;
+	right: 35px;
+	transition: left 1s linear 0s;
+	opacity: 1s;
+	display: none;
+}
+.sonBox2{
+	background: #494949;
+}
+.sonBox3{
+	line-height: 36px;
+	height: 36px;
+	background: #494949;
+}
+.sonBox4{
+	width: 155px;
+	height: 180px;
+	background: red;
+	position: absolute;
+	right: 35px;	
+	transition: left 1s linear 0s;
+	opacity: 1s;
+	border-radius: 10px;
+	display: none;
+}
+#son01{
+	top: 188px;	
+}
+#son02{
+	top: 234px;
+}
+#son03{
+	top: 379px;
+}
+#son04{
+	top: 415px;
+}
+#son05{
+	top: 451px;
+}
+#son06{
+	top: 487px;
+}
+#son07{
+	top: 523px;
+}
+#son08{
+	right: 35px;
+	top: 435px;
+}
+#son09{
+	right: 35px;
+	top: 600px;
+}
+#fanhui .iconfont{
+	font-size: 10px;
+	margin-left: 10px;
+}
+@-webkit-keyframes move{
+	0%{
+		opacity: 0;
+		left: -150px;
+	}
+	100%{
+		left: -100px;
+	}
+}
+#zhuhuic:hover #son01{
+	/*一点就出现我的主会场那个样式*/
+	animation: move 1s;
+	display: block;
+}
+/*我的主会场那个三角形图*/
+.sonBox img{
+	display: block;
+	margin-top: -32px;
+	margin-left: 98px;
+}
+.sonBox3 img{
+	display: block;
+	margin-top: -27px;
+	margin-left: 98px;
+}
+/*.sonBox4 img{
+	display: block;
+	margin-bottom: 0px;
+	margin-left: -155px;
+}*/
+.sonBox:hover img{
+	display: none;	
+}
+#huiyuan:hover #son02{
+	/*一点就出现会员权益单那个样式*/
+	animation: move 1s;
+	display: block;
+}
+#money:hover #son03{
+	/*一点就出现我的资产单那个样式*/
+	animation: move 1s;
+	display: block;
+}
+#shuocang:hover #son04{
+	/*一点就出现我的收藏单那个样式*/
+	animation: move 1s;
+	display: block;
+}
+#kanguo:hover #son05{
+	/*一点就出现我看过的单那个样式*/
+	animation: move 1s;
+	display: block;
+}
+#chonzhi:hover #son06{
+	/*一点就出现我要充值单那个样式*/
+	animation: move 1s;
+	display: block;
+}
+#fankui:hover #son07{
+	/*一点就出现用户反馈单那个样式*/
+	animation: move 1s;
+	display: block;
+}
+#tu{
+	display: block;
+	margin-top:-25px;
+}
+#tu2{
+	display: block;
+	margin-top:-162px;
+	width: 100px;
+	height: 100px;
+	margin-left: 26px;
+}
+#tu3{
+	display: block;
+	margin-left: 10px;
+}
+#saoma:hover #son08{
+	display: block;
+}
+#fanhui:hover #son09{
+	animation: move 1s;
+	display: block;
+}
+/*******底部的内容的样式*******/
+#foottu{
+	height: auto;
+	/*background: url(../img/goodsdetails/foottu.png);*/
+}
+#foottu2{
+	width: 1314px;
+	height: auto;
+}

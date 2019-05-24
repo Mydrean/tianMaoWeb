@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情</title>
+		<link rel="logo icon" href="logo.ico" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/GoodsDetails.css" />
+		<link rel="stylesheet" href="css/demo.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/goodsdetails.js" ></script>
+	</head>
+	<body>
+		<!--头部的内容-->
+		<header id="dhlan" class="t">
+			<div id="dhlan2" class="c">
+				<ul id="left" class="l">
+					<li class="dhl dh  l">
+						<span class="iconfont">&#xe623;</span>
+						<a href="index.html">天猫首页</a>
+					</li>
+					<li class="dhl dh  l">喵，欢迎来天猫</li>
+					<li class="dhl dh2 l"><a href="Login.html">请登录</a></li>
+					<li class="dhl dh3 l"><a href="Registration.html">免费注册</a></li>
+				</ul>
+				<ul id="right" class="r">
+					<li class="dhl2 l">
+						<div class="xlcd">
+							<a href="#">我的淘宝
+								<b><span class="iconfont">&#xe631;</span></b>
+							</a>
+							<div class="xlcd2">
+								<ul>
+									<li class="xld"><a href="#">已买到的宝贝</a></li>
+									<li class="xld"><a href="#">已卖出的宝贝</a></li>
+								</ul>							
+							</div>
+						</div>
+					</li>
+					<li class="dhl2 l">
+						<a href="ShopCar.html" class="d"><span class="iconfont">&#xe64f;</span>
+						购物车6件</a>
+					</li>
+					<li class="dhl2 l">
+						<div class="xlcd">
+							<a href="#">收藏夹
+								<b><span class="iconfont">&#xe631;</span></b>
+							</a>
+							<div class="xlcd2">
+								<ul>
+									<li class="xld"><a href="#">收藏的宝贝</a></li>
+									<li class="xld"><a href="#">收藏的店铺</a></li>
+								</ul>							
+							</div>
+						</div>
+					</li>
+					<li class="dhll l"></li>
+					<li class="dhl2 l">
+						<div class="xlcd">
+							<a href="#" class="d"><span class="iconfont">&#xe607;</span>手机版</a>
+							<div class="xlcd3"></div>																	
+						</div>
+					</li>
+					<li class="dhl2 l">
+						<a href="#" class="d dl">淘宝网</a>
+					</li>
+					<li class="dhl2 l">
+						<a href="#" class="d dl">商家支持</a>
+					</li>
+					<li class="dhl2 l">
+						<a href="#" class="d dl"><span class="iconfont">&#xe63b;</span>网站导航</a>
+					</li>					
+				</ul>
+			</div>
+		</header>
+		<!--头部下面的内容-->
+		<header id="top" class="t">
+			<div id="top2" class="c">
+				<ul id="gdtop">
+					<li class="gdtbns l">
+						<a href="#"><img src="img/goodsdetails/goodsdetail.png" class="gdp"/></a>
+					</li>
+					<li class="gdtbns l">
+						<a href="#"><img src="img/goodsdetails/goodsgetail2.png" class="gdp2" /></a>
+					</li>
+					<li class="gdtbns l">
+						<a href="#"><img src="img/goodsdetails/goodsdetail3.png" class="gdp2" /></a>
+					</li>
+					<li class="gdtbns l">
+						<a href="#"><img src="img/goodsdetails/goodsdetail4.png" class="gdp3" /></a>
+					</li>
+					<li class="gdtbns gdtbns2  l">
+						<input type="text" placeholder=" 搜索  天猫  商品/品牌/店铺 " class="bt012 bt013"/>
+						<button class="bt22"><a href="#">搜天猫国际</a></button>
+						<button class="bt23"><a href="#">搜本店</a></button>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<!--头部的图片-->
+		<header id="toptu" class="t">
+			<div id="toptu2" class="c">
+				<div id="tptu">
+					<img src="img/goodsdetails/goodsdetial5.gif" />
+				</div>
+				<div id="tpdh">
+					<ul id="tpd">
+						<li class="tpdbns l"><a href="#">本店所有</a><span class="iconfont">&#xe666;</span></li>
+						<li class="tpdbns l"><a href="#">首页</a></li>
+						<li class="tpdbns l"><a href="#">碧然德</a><span class="iconfont">&#xe65a;</span></li>
+						<li class="tpdbns l"><a href="#">双立人</a><span class="iconfont">&#xe65a;</span></li>
+						<li class="tpdbns l"><a href="#">泰国乳胶</a><span class="iconfont">&#xe65a;</span></li>
+						<li class="tpdbns l"><a href="#">美容美妆</a><span class="iconfont">&#xe65a;</span></li>
+						<li class="tpdbns l"><a href="#">家居百货</a><span class="iconfont">&#xe65a;</span></li>
+						<li class="tpdbns l"><a href="#">家清洗护</a><span class="iconfont">&#xe65a;</span></li>
+						<li class="tpdbns l">
+							<span><input type="type"/></span>
+							<span><button>确定</button></span>
+						</li>
+					</ul>
+				</div>				
+			</div>			
+		</header>
+		<!--放大镜的内容-->
+		<article id="gdfdaj" class="t">
+			<div id="gdfdaj2" class="c">
+				<div id="fdbox">
+					<img src="img/goodsdetails/fangdatu1.jpg" id="s" />
+					<div id="bigpic">
+						<img src="img/goodsdetails/fangdatu1.jpg" id="b" />
+					</div>		
+					<div id="square"></div>	
+				</div>
+				<ul id="btntu">
+					<a href="#"><li class="btn l" id="bttu1"></li></a>
+					<a href="#"><li class="btn l" id="bttu2"></li></a>	
+					<a href="#"><li class="btn l" id="bttu3"></li></a>
+					<a href="#"><li class="btn l" id="bttu4"></li></a>
+					<a href="#"><li class="btn l" id="bttu5"></li></a>				
+				</ul>
+				<div class="lianj">
+					<span class="iconfont">&#xe611;分享</span>
+					<span class="iconfont">&#xe610;收藏商品&nbsp;&nbsp;&nbsp;&nbsp;（20519人气）</span>
+				</div>
+				<div id="gdring">
+					<span class="fdzi">美国Tom Ford/汤姆福特黑金黑管TF口红 80/16/08/15#白管03/07/</span>
+					<div id="zibox">
+						<span class="fdzi2">价格</span>
+						<span class="fdzi3">￥689.00</span>
+					</div>
+					<div id="zibox2">
+						<span class="fdzi2">运费</span>
+						<span class="fdzi4 iconfont"><a href="#">杭州&#xe65a;上城区&#xe65a;</a></span>
+					</div>
+					<div id="zibox3">
+						<a href="#">累计评价<span class="fdzi5">2184</span></a>
+					</div>
+					<div id="zibox4">
+						<ul>
+							<li class="sebtn l" id="setu">颜色分类</li>
+							<li class="sebtn l" id="setu1">
+								<a href="#"><img src="img/goodsdetails/setu1.jpg" /></a>
+							</li>
+							<li class="sebtn l" id="setu1">
+								<a href="#"><img src="img/goodsdetails/setu2.jpg" /></a>
+							</li>
+							<li class="sebtn l" id="setu1">
+								<a href="#"><img src="img/goodsdetails/setu3.jpg" /></a>
+							</li>
+							<li class="sebtn l" id="setu1">
+								<a href="#"><img src="img/goodsdetails/setu4.jpg" /></a>
+							</li>
+							<li class="sebtn l" id="setu1">
+								<a href="#"><img src="img/goodsdetails/setu5.jpg" /></a>
+							</li>
+							<li class="sebtn l" id="setu1">
+								<a href="#"><img src="img/goodsdetails/setu6.jpg" /></a>
+							</li>
+							<li class="sebtn l" id="setu1">
+								<a href="#"><img src="img/goodsdetails/setu7.jpg" /></a>
+							</li>
+							<li class="sebtn l" id="setu1">
+								<a href="#"><img src="img/goodsdetails/setu8.jpg" /></a>
+							</li>
+							<li class="sebtn l" id="setu1">
+								<a href="#"><img src="img/goodsdetails/setu9.jpg" /></a>
+							</li>
+						</ul>							
+					</div>
+					<!--数量的添加-->
+					<div id="zibox5">
+						<ul class="slbox">
+							<li class="fdzi2 l">数量</li>
+							<li class="l"><button id="plus">+</button></li>
+							<li class="l"><input type="text" id="text" value="1"/></li>
+							<li class="l"><button id="subtract">-</button></li>
+							<li class="fdzi2 l">件</li>
+							<li class="fdzi2 l">&nbsp;&nbsp;&nbsp;库存5件</li>
+						</ul>
+					</div>
+					<!--购买和加入购物车-->
+					<div id="zibox6" class="l">
+						<a href="#"><span >立即购买</span></a>
+					</div>
+					<div id="zibox7" class="l">
+						<a href="#"><span class="iconfont">&#xe66d;加入购物车</span></a>
+					</div>
+					<div id="zibox8">
+						<a href="#"><img src="img/goodsdetails/fangdazitu11.png"/></a>
+					</div>
+				</div>
+			</div>
+		</article>
+		<!--物流的信息-->
+		<article id="wuliu" class="t">
+			<div id="wuliu2" class="c">
+				<a href="#"><img src="img/goodsdetails/wuliutu.png" /></a>
+			</div>
+			<div id="xq" class="c" >
+				<div id="xql" class="l">
+					<a href="#">
+					<img src="img/goodsdetails/xqtu1.png" />
+					<img src="img/goodsdetails/xqtu2.png" />
+					</a>
+					<img src="img/goodsdetails/xqtu19.png" />
+					<div id="lsuo">
+						<span>关键字<input type="text"/></span>
+						<span class="key">价格</span>
+						<input type="text" id="price1"  class="J_TCheckPrice J_TPrice1"  value="">						
+					</div>
+					<a href="#"><img src="img/goodsdetails/xqtu18.png"/></a>
+					
+					
+				</div>
+				<div id="xqr" class="r"> 
+					<a href="#"><img src="img/goodsdetails/xqtu4.png" /></a>
+					<a href="#"><img src="img/goodsdetails/xqtu5.png" /></a>
+					<a href="#"><img src="img/goodsdetails/xqtu6.jpg" /></a>
+					<a href="#"><img src="img/goodsdetails/xqtu7.jpg" /></a>
+					<a href="#"><img src="img/goodsdetails/xqtu8.jpg" /></a>
+					<a href="#"><img src="img/goodsdetails/xqtu9.jpg" /></a>
+					<a href="#"><img src="img/goodsdetails/xqtu10.jpg" /></a>
+					<a href="#"><img src="img/goodsdetails/xqtu11.jpg" /></a>
+					<a href="#"><img src="img/goodsdetails/xqtu12.jpg" /></a>
+					<a href="#"><img src="img/goodsdetails/xqtu13.jpg" /></a>
+					<a href="#"><img src="img/goodsdetails/xqtu14.jpg" /></a>
+					<a href="#"><img src="img/goodsdetails/xqtu15.jpg" /></a>
+					<a href="#"><img src="img/goodsdetails/xqtu16.jpg" /></a>
+					<a href="#"><img src="img/goodsdetails/xqtu17.jpg" /></a>
+					
+				</div>
+			</div>
+		</article>
+		<!--右边固定的内容-->	
+		<div id="rightBox">
+			<ul class="rb">
+				<li class="rbs1">
+					<a href="#"><img src="img/index/index_rightimg1.png" /></a>
+				</li>
+				<li class="rbs2" id="zhuhuic">
+					<a href="#"><span class="iconfont">&#xe62d;</span></a>
+					<div id="son01" class="sonBox">
+						主会场
+					<img src="img/index/红三角形.png" />
+					</div>
+				</li>
+				<li class="rbs2 rbs21" id="huiyuan">
+					<a href="#"><span class="iconfont">&#xe739;</span></a>
+					<div id="son02" class="sonBox sonBox2">
+						会员权益
+					<img src="img/index/三角形.png" />
+					</div>
+				</li>
+				
+				<li class="rbs rbs21" id="shopCar">
+					<a href="ShopCar.html"><span class="iconfont">&#xe66d;</span><br />					
+					<span>购<br />物<br />车</span>
+					</a>					
+				</li>
+				
+				<li class="rbs3 rbs21" id="money">
+					<a href="#"><span class="iconfont">&#xe645;</span></a>
+					<div id="son03" class="sonBox sonBox3">
+						我的资产
+					<img src="img/index/三角形.png" />
+					</div>
+				</li>
+				<li class="rbs3 rbs21" id="shuocang">
+					<a href="#"><span class="iconfont">&#xe643;</span></a>
+					<div id="son04" class="sonBox sonBox3">
+						我的收藏
+					<img src="img/index/三角形.png" />
+					</div>
+				</li>
+				<li class="rbs3 rbs21" id="kanguo">
+					<a href="#"><span class="iconfont">&#xe62a;</span></a>
+					<div id="son05" class="sonBox sonBox3">
+						我看过的
+					<img src="img/index/三角形.png" />
+					</div>
+				</li>
+				<li class="rbs3 rbs21" id="chonzhi">
+					<a href="#"><span class="iconfont">&#xe62e;</span></a>
+					<div id="son06" class="sonBox sonBox3">
+						我要充值
+					<img src="img/index/三角形.png" />
+					</div>
+				</li>
+				<li class="rbs3 rbs21" id="fankui">
+					<a href="#"><span class="iconfont">&#xe60c;</span></a>
+					<div id="son07" class="sonBox sonBox3">
+						用户反馈
+					<img src="img/index/三角形.png" />
+					</div>
+				</li>
+				<li class="rbs3 rbs21" id="saoma">
+					<a href="#"><span class="iconfont">&#xeaf1;</span></a>
+					<div id="son08" class="sonBox4">						
+						<img src="img/index/index_saoma1.png" id="tu"/>
+						<img src="img/index/index_saomatu.jpg" id="tu2"/>
+						<img src="img/index/index_saoma2.png" id="tu3" />						
+					</div>
+				</li>
+				<li class="rbs3 rbs21" id="fanhui">
+					<a href="#">
+						<span class="iconfont">&#xe646;</span>
+						<span>TOP</span>
+					</a>
+					<div id="son09" class="sonBox sonBox3">
+						返回顶部
+					<img src="img/index/三角形.png"/>
+					</div>
+				</li>							
+			</ul>
+		</div>
+		<!--底部的内容-->
+		<div id="foottu" class="t">
+			<div id="foottu2">
+				<img src="img/goodsdetails/foottu.png" />
+			</div>
+		</div>
+		
+		
+		<script>
+			
+		</script>
+		
+		
+	</body>
+</html>

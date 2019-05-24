@@ -1,0 +1,141 @@
+#logbox1{
+	width: 1349px;
+	height: 80px;
+	background: white;
+	line-height: 50px;
+	position: relative;
+}
+#logbox1 img{
+	position: absolute;
+	display: block;
+	width: 190px;
+	height: 27px;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+#logbox2{
+	width: 100%;
+	height: 600px;
+	background: rgb(252, 48, 50);
+}
+#logbox3{
+	margin: 0 auto;
+	width: 1190px;
+	height: 600px;
+	background: url(../img/registtu.png);
+	position: relative;
+}
+/*****表单的样式******/
+.forms{
+	width: 350px;
+	height: 450px;
+	background: white;
+	position: absolute;
+	top: 60px;
+	right: 80px;
+	text-align: center;
+}
+.box1{
+	width: 350px;
+	height: 40px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 40px;
+	color: red;
+	text-align: center;
+	background: papayawhip;	
+	position: relative;
+}
+.zibtn1{
+	position: absolute;
+	top: 0;
+	left: 70px;
+}
+.zibtn2{
+	position: absolute;
+	top: 0;
+	right: 70px;
+}
+.zibtn1 a,.zibtn2 a{
+	color: red;
+}
+.zibtn1 a:hover,.zibtn2 a:hover{
+	color: red;
+	text-decoration: none;
+}
+.inp{
+	width: 300px;
+	height: 35px;
+	border: 2px solid red;
+	outline: none;
+	border-radius: 3px;
+	margin-top: 40px;
+}
+.inp2{
+	font-size: 16px;
+	height: 38px;
+	border-radius: 3px;
+	background: red;
+}
+.inp21{
+	margin-top:65px ;
+}
+.inp3{
+	position: absolute;
+	bottom: 20px;
+	font-size: 14px;
+	color: red;
+	left: 120px;
+}
+.inp3 a{
+	color: red;
+}
+.inp3 a:hover{
+	color: red;
+	text-decoration: none;
+}
+.forms a:hover{
+	text-decoration: none;
+}
+.pp1{
+	position: absolute;
+	top: 120px;
+	left: 23px;
+	color: white;
+}
+.pp2{
+	position: absolute;
+	top: 200px;
+	left: 23px;
+	color: white;
+}
+.pp3{
+	position: absolute;
+	top: 280px;
+	left: 23px;
+	color: white;
+}
+.pp4{
+	position: absolute;
+	top: 300px;
+	left: 23px;
+	color: gray;
+}
+
+
+/*****底部的样式******/
+#fot{
+	width: 100%;
+	height: 200px;
+	background: whitesmoke;
+}
+
+#fot2{
+	margin: 0 auto;
+	width: 1349px;
+	height: 200px;
+	background: white;
+	text-align: center;
+	line-height: 100px;
+	position: relative;
+}
